@@ -1,2 +1,4 @@
-3d models and ready presets to unity 3d
-![winchester](https://user-images.githubusercontent.com/84248601/118377685-70343d80-b5d7-11eb-9260-bf224c4b7dd6.jpg)
+# Hello. This is where I post my work:books:.
+## I am programming in **C#**. I can create **databases**. I know **MySql** at a basic level.
+## I make games in **Unity3D**:joystick:.
+## I also do 3d modeling in **blender 3d** and texturing in **Substance painter**:art:.
