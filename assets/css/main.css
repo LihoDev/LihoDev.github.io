@@ -33,6 +33,11 @@ body {
 	line-height: 1;
 }
 
+video
+{
+	max-width: 75%;
+}
+
 ol, ul {
 	list-style: none;
 }
