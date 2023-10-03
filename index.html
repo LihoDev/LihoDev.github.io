@@ -5,7 +5,7 @@
 	<title>Vladimir Povalyukhin</title>
 	<meta charset="utf-8" />
 	<meta property="og:title" content="Vladimir Povalyukhin" />
-	<meta property="og:image" content="https://lihodeveloper.github.io/images/AvatarkaCubeSmall.png"/>
+	<!--<meta property="og:image" content="https://lihodeveloper.github.io/images/AvatarkaCubeSmall.png"/>-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
@@ -25,16 +25,17 @@
 			<article id="top" class="wrapper style1">
 				<div class="container">
 					<div class="row">
-						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="images/AvatarkaCubeSmall.png" alt="" /></span>
+						<!--<div class="col-4 col-5-large col-12-medium">-->
+							<!--<span class="image fit"><img src="images/AvatarkaCubeSmall.png" alt="" /></span>-->
 							<!--<p><center><h2>Liho</h2></center></p>-->
-						</div>
+						<!--</div>-->
 						<div class="col-8 col-7-large col-12-medium">
 							<header>
 								<h1>Hi. I'm <strong>Vladimir Povalyukhin</strong>.</h1>
 							</header>
 							<p>And here I show my <strong>Portfolio</strong></p>
 							<a href="#portfolio" class="button large scrolly">See some of my work</a> 
+							<p><strong>E-mail:</strong> vladimirpovalyukhin@gmail.com</p>
 						</div>
 					</div>
 				</div>
@@ -94,54 +95,88 @@
 				<div class="container">
 					<header>
 						<h2>Here’s some stuff I made.</h2>
+							<div class="tabs">
+								<input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+								<label for="tab-btn-1" class="button small scrolly">PROJECTS</label>
+								<input type="radio" name="tab-btn" id="tab-btn-2" value="">
+								<label for="tab-btn-2" class="button small scrolly">3D MODELS</label>
+
+								<div id="content-1">
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<article class="box style2">
+												<video controls max_w poster="images/Preview.gif" alt="">
+													<source src="images/Runner_Game.mp4" type="video/mp4">
+													Your browser does not support the video tag
+												</video>
+												<h3>Simple runner game</h3>
+												<p>Runner game with a curve world shader and low poly graphic</p>
+												<a href="https://github.com/LihoDev/Simple-runner-game" class="button small scrolly">Go to repository</a>
+											</article>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<article class="box style2">
+												<a href="https://github.com/LihoDev/DrawPuzzle" class="image featured"><img src="images/DrawPuzzle.png" alt="" /></a>
+												<h3>Small Puzzle</h3>
+												<p>Created a small puzzle</p>
+												<a href="https://github.com/LihoDev/DrawPuzzle" class="button small scrolly">Go to repository</a>
+												<a href="https://lihodev.github.io/Draw_puzzle_Demonstration/" class="button small scrolly">PLAY (Mobile&#128241)</a>
+											</article>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<article class="box style2">
+												<a href="https://github.com/LihoDev/Web-API" class="image featured"><img src="images/web-api.png" alt="" /></a>
+												<h3>Simple Web API</h3>
+												<p>My Web API implementation for storing game user data</p>
+												<a href="https://github.com/LihoDev/Web-API" class="button small scrolly">Go to repository</a>
+											</article>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<article class="box style2">
+												<a href="https://github.com/LihoDev/Web-API-client-WPF" class="image featured"><img src="images/web-api-client-wpf.png" alt="" /></a>
+												<h3>Web API client on WPF</h3>
+												<p>My Sample Web API Client Implementation</p>
+												<a href="https://github.com/LihoDev/Web-API-client-WPF" class="button small scrolly">Go to repository</a>
+											</article>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<article class="box style2">
+												<a href="https://github.com/LihoDev/Simple-shaders" class="image featured"><img src="images/SimpleShaders.png" alt="" /></a>
+												<h3>Simple shaders</h3>
+												<p>Created a simple Unity scene to showcase shaders made with the shader graph</p>
+												<a href="https://github.com/LihoDev/Simple-shaders" class="button small scrolly">Go to repository</a>
+											</article>
+										</div>
+									</div>
+								</div>
+								<div id="content-2">
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<article class="box style2">
+												<video controls max_w poster="images/Model_Server.png" alt="" style="max-width: 100%;">
+													<source src="images/Model_Server.mkv" type="video/mp4">
+													Your browser does not support the video tag
+												</video>
+												<h3>Server cabinet model</h3>
+											</article>
+										</div>
+										<div class="col-4 col-6-medium col-12-small" style="width: 38em;">
+											<article class="box style2" >
+												<img src="images/Model_Dragon.png" alt="" style="max-width: 100%;"/>
+												<h3>Game-ready Dragon model</h3>
+											</article>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<article class="box style2">
+												<img src="images/Model_Robot.png" alt="" style="max-width: 100%;"/>
+												<h3>Robot model</h3>
+											</article>
+										</div>
+									</div>
+								</div>
+							</div> 
 					</header>
-					<div class="row">
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<!--<a href="https://github.com/LihoDev/Simple-runner-game" class="image featured">-->
-									<video controls max_w poster="images/Preview.gif" alt="">
-										<source src="images/Runner_Game.mp4" type="video/mp4">
-										Your browser does not support the video tag
-									</video>
-								<!--</a>-->
-								<h3>Simple runner game</h3>
-								<p>Runner game with a curve world shader and low poly graphic</p>
-								<a href="https://github.com/LihoDev/Simple-runner-game" class="button small scrolly">Go to repository</a>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://github.com/LihoDev/DrawPuzzle" class="image featured"><img src="images/DrawPuzzle.png" alt="" /></a>
-								<h3>Small Puzzle</h3>
-								<p>Created a small puzzle</p>
-								<a href="https://github.com/LihoDev/DrawPuzzle" class="button small scrolly">Go to repository</a>
-								<a href="https://lihodev.github.io/Draw_puzzle_Demonstration/" class="button small scrolly">PLAY (Mobile&#128241)</a>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://github.com/LihoDev/Web-API" class="image featured"><img src="images/web-api.png" alt="" /></a>
-								<h3>Simple Web API</h3>
-								<p>My Web API implementation for storing game user data</p>
-								<a href="https://github.com/LihoDev/Web-API" class="button small scrolly">Go to repository</a>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://github.com/LihoDev/Web-API-client-WPF" class="image featured"><img src="images/web-api-client-wpf.png" alt="" /></a>
-								<h3>Web API client on WPF</h3>
-								<p>My Sample Web API Client Implementation</p>
-								<a href="https://github.com/LihoDev/Web-API-client-WPF" class="button small scrolly">Go to repository</a>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://github.com/LihoDev/Simple-shaders" class="image featured"><img src="images/SimpleShaders.png" alt="" /></a>
-								<h3>Simple shaders</h3>
-								<p>Created a simple Unity scene to showcase shaders made with the shader graph</p>
-								<a href="https://github.com/LihoDev/Simple-shaders" class="button small scrolly">Go to repository</a>
-							</article>
-						</div>
+					
 						<!--<div class="col-4 col-6-medium col-12-small">
 		<article class="box style2">
 			<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
@@ -220,7 +255,7 @@
 						</div>
 					<footer>
 						<ul id="copyright">
-							<li>&copy; Povalyukhin Vladimir, 2022.</li>
+							<li>&copy; Povalyukhin Vladimir, 2023.</li>
 						</ul>
 					</footer>
 				</div>
